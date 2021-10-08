@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
 const { promisify } = require('util');
 
-const Player = require('./Player');
-const { Persistent, Server } = require('./Persistent')
+const Player = require('./functionality/Player');
+const { Persistent, Server } = require('./functionality/Persistent')
 const persistent = new Persistent();
 
 const sleep = promisify(setTimeout);

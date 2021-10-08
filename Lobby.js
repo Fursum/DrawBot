@@ -3,8 +3,8 @@ const path = require('path');
 const https = require('https');
 const rootCas = require('ssl-root-cas').create();
 
-const FlamingText = require('./FlameText.js');
-const { Persistent, Server } = require('./Persistent')
+const FlamingText = require('./functionality/FlameText.js');
+const { Persistent, Server } = require('./functionality/Persistent')
 const persistent = new Persistent();
 
 //This is a certificate for gif maker site
