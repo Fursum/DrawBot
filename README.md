@@ -27,7 +27,7 @@ Their Discord names and their selection will be visible.
 
 
 ### Usage
-The default prefixes aren't very practical. If this is the only functionality of the bot, you are welcome to change it. You can simply leave the SECONDARY_PREFIX string empty.
+The default prefixes aren't very practical. If this is the only functionality of the bot, you are welcome to change it. You can simply leave the ```SECONDARY_PREFIX``` string empty.
 
 Currently, bot only supports one event simultaneously.
 
