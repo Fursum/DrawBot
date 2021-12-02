@@ -18,7 +18,12 @@ There is a built in context sensitive help command:
 PREFIX help
 ```
 
-# Lobby.js
+# Lobby.js (DEPRECATED)
+
+Discord has added their own event system so this is no longer needed.
+
+---------------------------------------------------------------------
+
 This was created to manage Among Us lobbies.
 
 An event is created with a specified time. The optional role gets pinged. People can accept, reject or put a maybe on the event embed. 
